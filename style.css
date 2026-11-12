@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3e6d8;
+    font-family: "Outfit", sans-serif;
+    color: #5f574e;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    line-height: 1.5;
+}
+
+
+.omelette-card {
+    background-color: #ffffff;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 4px 20px #0000000d;
+}
+
+.omelette-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: block;
+    object-fit: cover;
+}
+
+
+h1 {
+    font-family: 'Young Serif', Georgia, serif;
+    color: #312e2b;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Young Serif', Georgia, serif;
+    color: #854632; 
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+
+.preparation-box {
+    background-color:#fff5fa;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.preparation-box h3 {
+    color: #7b284f; 
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.preparation-box ul {
+    padding-left: 20px;
+}
+
+.preparation-box li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.preparation-box li::marker {
+    color: #7b284f;
+}
+
+.preparation-box span {
+    font-weight: 700;
+    color: #5f574e;
+}
+
+
+ul, ol {
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+
+.list-of-ingredients li::marker {
+    color: #7b284f;
+}
+
+
+.list-of-instructions li::marker {
+    color: #7b284f;
+    font-weight: bold;
+}
+
+.list-of-instructions span {
+    font-weight: 700;
+    color: #5f574e;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e3ddd9;
+    margin: 30px 0;
+}
+
+
+.nutrition-text {
+    margin-bottom: 20px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #e3ddd9;
+}
+
+.nutrition-table tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition-table td {
+    padding: 15px 0;
+}
+
+.nutrition-table td:first-child {
+    padding-left: 30px;
+    color: #5f564d;
+}
+
+.nutrition-table td:last-child {
+    font-weight: 700;
+    color: #854632;
+}
+
+
+@media (max-width: 600px) {
+    .recipe-card {
+        padding: 25px;
+        border-radius: 0;
+    }
+    body {
+        padding: 0;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+}
